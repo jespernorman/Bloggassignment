@@ -13,10 +13,10 @@ color: rgb(28, 32, 28);
 }
 
 nav {
-    background-color: background-color rgb(238, 231, 138); 
+    background-color: rgb(238, 238, 110);
     text-align: center;
-    color: black;
     list-style:none;
+    font-size: 140%;
 }
 
 section {
@@ -40,6 +40,7 @@ script {
 }
 
 footer {
-    background-color:rgb(238, 231, 138);
+    background-color: rgb(241, 241, 111);
     text-align: center;
+    font-size: 140%;
 }
