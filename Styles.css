@@ -1,0 +1,36 @@
+header {
+background-color :rgb(76, 158, 235);
+text-align: left;
+font-size: medium;
+color: pink;
+}
+
+image {
+    display:flex;
+    justify-content: center;
+    size: 800x500;
+}
+
+nav {
+    background-color: background-color rgb(238, 231, 138); 
+    text-align: center;
+    color: black;
+    list-style:none;
+}
+
+section {
+    display: flex;
+}
+
+main{
+    background-color:rgb(174, 191, 199);
+
+}
+article {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color:rgb(238, 231, 138);
+    text-align: center;
+}
