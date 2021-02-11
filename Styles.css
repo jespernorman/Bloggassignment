@@ -2,13 +2,14 @@ header {
 background-color :rgb(76, 158, 235);
 text-align: left;
 font-size: medium;
-color: pink;
+color: rgb(28, 32, 28);
 }
 
-image {
-    display:flex;
-    justify-content: center;
-    size: 800x500;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 
 nav {
@@ -32,6 +33,9 @@ article {
     text-align: center;
 }
 aside {
+    text-align: left;
+}
+script {
     text-align: left;
 }
 

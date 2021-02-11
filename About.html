@@ -16,47 +16,48 @@
 </html>
 <nav> 
 
-    <a href="Index.html">Index</a>
-    <a href="About.html">About me</a>
-    <a href="Archive.html">Archive</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About me</a>
+    <a href="archive.html">Archive</a>
     <a href="https://github.com/jespernorman/Bloggassignment">Github</a>
     <p>
 </nav> 
 
 <body> 
     <image>
-        <img src= "picture/IMG_4327.JPG">
+        <img src="picture/IMG_4327.JPG" class="center">
     </image>
 </body>
 
 <main>
-
-    <section> 
-            <p>
-                -----------------------------------------------------------------------------------------------------
-            </p>
+    <article>
+        <h2>about me</h2>
+        <p>                    
         
-        <article>
-            <h2>A little bout me</h2>
-            <p>                    
-            <p id = "p1"></p>
-            </p> 
+        <aside>Here is a little baouuuuttt maeeyyy</aside>
+        <p id = "p1"></p>
 
-            <p>
+            <script>
+                var today = new Date();             
+                var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();      
+                var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();                  
+                var dateTime = date+' '+time;     
 
-            </p>
-            <aside>here I write about my self</aside>
-        </article>
-    </section>
+                document.getElementById("p1").innerHTML = dateTime;               
+            </script>
+        </p>
+    </article>
+</section>
 </main>
+<p>
 
 </p>
 </footer>
     <nav>
 
-        <a href="Index.html">Index</a>
-        <a href="About.html">About me</a>
-        <a href="Archive.html">Archive</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About me</a>
+        <a href="archive.html">Archive</a>
         <a href="https://github.com/jespernorman/Bloggassignment">Github</a>
     </nav> 
 </footer>

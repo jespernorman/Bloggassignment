@@ -15,9 +15,9 @@
 
 </html>
 <nav>
-    <a href="Index.html">Index</a>
-    <a href="About.html">About me</a>
-    <a href="Archive.html">Archive</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About me</a>
+    <a href="archive.html">Archive</a>
     <a href="https://github.com/jespernorman/Bloggassignment">Github</a>
     <p>
 
@@ -25,41 +25,38 @@
 </nav>
 <body> 
     <image>
-        <img src= "picture/IMG_4327.JPG">
+        <img src="picture/IMG_4327.JPG" class="center">
     </image>
 </body>
 
 <main>
-    <section>
-        <p>
-            -----------------------------------------------------------------------------------------------------
+    <article>
+        <h2>Archive</h2>
+        <p>                    
+        
+        <aside>listlist.</aside>
+        <p id = "p1"></p>
+
+            <script>
+                var today = new Date();             
+                var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();      
+                var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();                  
+                var dateTime = date+' '+time;     
+
+                document.getElementById("p1").innerHTML = dateTime;               
+            </script>
         </p>
-   </section>
-        <article>
-            <h2>First blog post!</h2>
-            <p>                    
-            <p id = "p1"></p>
-
-                <script>
-                    var today = new Date();             
-                    var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();      
-                    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();                  
-                    var dateTime = date+' '+time;     
-
-                    document.getElementById("p1").innerHTML = dateTime;               
-                </script>
-            </p>
-            <aside>hellooooo here I list all my posts</aside>
-        </article>
-
+    </article>
+</section>
 </main>
+<p>
 </p>
 </footer>
-<nav style="background-color:rgb(238, 231, 138);)" nav> <center>
+    <nav>
 
-<a href="Index.html">Index</a>
-<a href="About.html">About me</a>
-<a href="Archive.html">Archive</a>
-<a href="https://github.com/jespernorman/Bloggassignment">Github</a>
-</nav> </center>
+        <a href="index.html">Home</a>
+        <a href="about.html">About me</a>
+        <a href="archive.html">Archive</a>
+        <a href="https://github.com/jespernorman/Bloggassignment">Github</a>
+    </nav> 
 </footer>
