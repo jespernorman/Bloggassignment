@@ -16,9 +16,14 @@ nav {
     background-color: rgb(238, 238, 110);
     text-align: center;
     list-style:none;
-    font-size: 140%;
+    font-size: 150%;
 }
 
+@media screen and (max-width: 700px) {  feL?
+    .row, .navbar {   
+      flex-direction: column;
+    }
+}
 section {
     display: flex;
     text-align: center;
