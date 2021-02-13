@@ -19,7 +19,7 @@ nav {
     font-size: 150%;
 }
 
-@media screen and (max-width: 700px) {  feL?
+@media screen and (max-width: 700px) {
     .row, .navbar {   
       flex-direction: column;
     }
